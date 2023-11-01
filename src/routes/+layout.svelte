@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 </script>
 
 <div class="container">
@@ -6,13 +7,17 @@
 		<div id="logo">Faik Yesilyaprak</div>
 
 		<nav>
-			<a href="#"> Home </a>
+			<a href="/" aria-current={$page.url.pathname === '/' ? 'page' : undefined}> Home </a>
 
-			<a href="#"> Projects </a>
+			<a href="projects" aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+				Projects
+			</a>
 
-			<a href="#"> About Me </a>
+			<a href="about" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				About Me
+			</a>
 
-			<a href="#"> FAQs </a>
+			<a href="faqs" aria-current={$page.url.pathname === '/faqs' ? 'page' : undefined}> FAQs </a>
 		</nav>
 	</header>
 
