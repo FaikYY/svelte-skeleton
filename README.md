@@ -86,6 +86,6 @@ If you have any questions or suggestions, feel free to contact the project creat
 
 - [Email](mailto:faikyesilyaprak@outlook.com)
 - [GitHub](https://github.com/FaikYY)
-- [Twitter/X.com](https://twitter.com/Faik_YY)
+- [Twitter/ X.com](https://twitter.com/Faik_YY)
 
 Happy coding! 🚀👨‍💻🎉
